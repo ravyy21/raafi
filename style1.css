@@ -1,0 +1,87 @@
+/* style1.css */
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffeef2; /* Latar belakang pink yang lembut */
+    color: #333;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    text-align: center;
+    color: #d63384; /* Warna pink yang lebih kuat untuk judul */
+    margin-top: 20px;
+}
+
+hr {
+    border: none;
+    height: 2px;
+    background-color: #f8b6c4;
+    margin: 20px auto;
+    width: 80%;
+}
+
+table {
+    width: 90%;
+    margin: 0 auto;
+    border-collapse: collapse;
+    background-color: #fff; /* Warna latar putih untuk kontras */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+table th, table td {
+    text-align: center;
+    padding: 10px;
+    border: 1px solid #f4a9bc; /* Border pink lembut */
+}
+
+table th {
+    background-color: #f4a9bc; /* Pink lembut untuk header */
+    color: #fff;
+}
+
+table tr:nth-child(even) {
+    background-color: #ffeaf0; /* Alternatif baris pink lembut */
+}
+
+table tr:hover {
+    background-color: #fadadd; /* Warna hover */
+}
+
+img {
+    border-radius: 5px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #d63384; /* Tombol warna pink kuat */
+    color: #fff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    font-weight: bold;
+}
+
+.btn:hover {
+    background-color: #b12d6f; /* Warna hover tombol */
+}
+
+p {
+    font-size: 14px;
+    color: #666;
+    text-align: center;
+    margin: 20px 0;
+}
+
+a {
+    color: #d63384;
+    text-decoration: none;
+    font-weight: bold;
+    transition: color 0.3s ease;
+}
+
+a:hover {
+    color: #b12d6f;
+}
